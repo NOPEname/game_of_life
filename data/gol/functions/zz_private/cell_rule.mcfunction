@@ -14,8 +14,8 @@ execute if block ~-1 ~ ~-1 white_concrete run scoreboard players add cell_count 
 
 
 # apply rule and set new block below current cell
-setblock ~ ~-1 ~ black_concrete
+setblock ~ ~-1 ~ netherite_block
 # cell stays alive
 execute if block ~ ~ ~ white_concrete if score cell_count tmp matches 2..3 run setblock ~ ~-1 ~ white_concrete
 # dead cell becomes live cell
-execute if block ~ ~ ~ black_concrete if score cell_count tmp matches 3 run setblock ~ ~-1 ~ white_concrete
+execute if block ~ ~ ~ netherite_block if score cell_count tmp matches 3 run setblock ~ ~-1 ~ white_concrete

@@ -1,0 +1,1 @@
+execute at @e[tag=gol_board_64_64] run fill ~ ~-1 ~ ~63 ~ ~63 netherite_block replace white_concrete
