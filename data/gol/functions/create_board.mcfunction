@@ -1,6 +1,8 @@
 fill ~ ~-3 ~ ~65 ~-1 ~65 orange_concrete
 fill ~1 ~-2 ~1 ~64 ~-1 ~64 netherite_block
 
+
+
 setblock ~ ~-1 ~ command_block{Command:"/function gol:zz_private/ui/remove_board"}
 setblock ~ ~ ~ stone_button[face=floor]
 setblock ~1 ~ ~ oak_sign[rotation=4]{Text2:"{\"text\":\"Remove Board\"}"}
@@ -30,6 +32,8 @@ setblock ~25 ~-1 ~ command_block{Command:"/function gol:zz_private/ui/clear_boar
 setblock ~25 ~ ~ stone_button[face=floor]
 setblock ~26 ~ ~ oak_sign[rotation=4]{Text2:"{\"text\":\"Clear Board\"}"}
 setblock ~26 ~-1 ~ light_blue_concrete
+
+
 
 kill @e[tag=gol_board_64_64]
 summon area_effect_cloud ~1 ~-1 ~1 {Duration:2000000000,Tags:[gol_board_64_64]}

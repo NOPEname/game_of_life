@@ -1,0 +1,1 @@
+execute at @e[tag=gol_cube_16] run fill ~ ~ ~ ~15 ~15 ~15 air replace blue_stained_glass
